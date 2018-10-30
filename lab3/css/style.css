@@ -1,0 +1,175 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url("../resources/back_austria.JPG");
+    overflow: hidden;
+    background-size: cover;
+}
+
+.listen {
+    padding-top: 20px;
+    width: 140px;
+    height: 40px;
+    top: 80px;
+    background: #589db0;
+    border-radius: 60px 20px 60px 10px;
+    position:     fixed;
+    box-shadow: 0 5px 5px black;
+    text-align: center;
+    left:900px;
+    z-index: 999;
+}
+
+.nextPageRef:hover {
+    color: azure;
+}
+
+.nextPageRef {
+    text-decoration: none;
+    font-family: "Monotype Corsiva";
+    font-size: x-large;
+    color: black;
+
+}
+
+.img {
+    position: absolute;
+    width: 240px;
+    height: 240px;
+    bottom: 35px;
+    right: 20px;
+
+}
+
+.bg {
+    width: 800px;
+    height: 700px;
+    top: 30px;
+    left: 25%;
+    position: absolute;
+    background-color: #c8e8ff;
+    opacity: 0.9;
+}
+
+.txt {
+    position: absolute;
+    font-size: 40pt;
+    font-family: "MV Boli";
+    top: -53px;
+    left: 55px;
+}
+
+.block {
+    width: 730px;
+    height: 650px;
+    left: 40px;
+    top: 20px;
+    position: relative;
+    background: linear-gradient(to top, #ffffff, #ffffff);
+    box-shadow: 4px 4px 8px -2px #1d98c0;
+    -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 29%, 100% 100%, 70% 100%, 50% 100%, 0 100%, 0% 70%, 0 8%, 36% 8%);
+    clip-path: polygon(50% 0%, 100% 0, 100% 29%, 100% 100%, 70% 100%, 50% 100%, 0 100%, 0% 70%, 0 8%, 36% 8%);
+    opacity: 0.9;
+    border-radius: 0 0 20px 20px;
+}
+
+.text {
+    top: 30px;
+    height: 100px;
+    font-family: Bradley Hand ITC;
+    font-size: 15pt;
+    font-weight: bold;
+    color: black;
+    padding: 10px;
+    text-indent: 1.5em;
+    /* Отступ первой строки */
+    text-align: justify;
+    /* Выравнивание по ширине */
+    margin: 5%;
+    position: absolute;
+}
+
+.text:first-letter {
+    color: #ff0000;
+    font-size: xx-large;
+}
+.like_svg1{
+    border: 3px solid #f20000;
+   width: 100px;
+    height: 100px;
+    left: 80px;
+    top:470px;
+    border-radius: 50px 50px 50px 50px;
+    position: absolute;
+    background: linear-gradient(to top, #fd8f8f, #7fdafc);
+    box-shadow: 4px 4px 8px -2px #1d98c0;
+}
+.like_svg2{
+    border: 3px solid #ffffff;
+   width: 100px;
+    height: 100px;
+    left: 180px;
+    top:470px;
+    border-radius: 50px 50px 50px 50px;
+    position: absolute;
+    background: linear-gradient(to top, #fd8f8f, #7fdafc);
+    box-shadow: 4px 4px 8px -2px #1d98c0;
+}
+.like_svg3{
+    border: 3px solid #ff0000;
+   width: 100px;
+    height: 100px;
+    left: 280px;
+    top:470px;
+    border-radius: 50px 50px 50px 50px;
+    position: absolute;
+    background: linear-gradient(to top, #fd8f8f, #7fdafc);
+    box-shadow: 4px 4px 8px -2px #1d98c0;
+}
+
+.svg {
+    position: absolute;
+    left: 40px;
+    top: 450px;
+    fill: #f26272;
+    stroke: #75c6f0;
+    stroke-width: 5;
+}
+
+.word {
+    font-family: Mistral;
+    position: absolute;
+    top: 470px;
+    color: aliceblue;
+    left: 110px;
+    font-size: 60pt;
+    text-align: center;
+    letter-spacing: 7px;
+    font-weight: 700;
+    text-transform: uppercase;
+    animation: blur .75s ease-out infinite;
+    text-shadow: 0px 0px 5px #fff, 0px 0px 7px #fff;
+}
+
+@keyframes blur {
+    from {
+        text-shadow: 0px 0px 10px #fff,
+            0px 0px 10px #fff,
+            0px 0px 25px #fff,
+            0px 0px 25px #fff,
+            0px 0px 25px #fff,
+            0px 0px 25px #fff,
+            0px 0px 25px #fff,
+            0px 0px 25px #fff,
+            0px 0px 50px #fff,
+            0px 0px 50px #fff,
+            0px 0px 50px #7B96B8,
+            0px 0px 150px #7B96B8,
+            0px 10px 100px #7B96B8,
+            0px 10px 100px #7B96B8,
+            0px 10px 100px #7B96B8,
+            0px 10px 100px #7B96B8,
+            0px -10px 100px #7B96B8,
+            0px -10px 100px #7B96B8;
+    }
+}

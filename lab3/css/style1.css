@@ -1,0 +1,100 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url("../resources/back_vienna.jpg");
+    overflow: hidden;
+    background-size: cover;
+
+}
+
+.block {
+    width: 900px;
+    height: 800px;
+    top: 60px;
+    left: 420px;
+    position: relative;
+    z-index: 1;
+    background: radial-gradient(circle farthest-side at 50% 100%, rgba(234, 227, 227, 0.8), rgba(255, 228, 228, 0.8));
+    /*    box-shadow: 5px 5px 6px -2px #e5e5e5;*/
+    /*    border-radius: 20px 20px 20px 20px;*/
+    /*    border-radius: 20px 20px 0px 0px;*/
+    border-radius: 20px;
+    -webkit-clip-path: polygon(35% 0, 35% 17%, 100% 17%, 100% 70%, 100% 100%, 0 100%, 0% 70%, 0 0);
+    clip-path: polygon(35% 0, 35% 17%, 100% 17%, 100% 70%, 100% 100%, 0 100%, 0% 70%, 0 0);
+}
+
+#footer {
+    border: 6px solid #fff;
+    /* Белая рамка */
+    border-radius: 20px;
+    /* Радиус скругления */
+    width: 890px;
+    height: 150px;
+    bottom: 0;
+    background-image: url("../resources/footer2.png");
+    position: absolute;
+
+}
+
+.vienna {
+    top: -15px;
+    left: 50px;
+    position: absolute;
+    font-family: Mistral;
+    color: #00008B;
+    font-size: 45pt;
+}
+
+table {
+    overflow: hidden;
+    position: inherit;
+    top: 50%;
+    left: 300px;
+    font-family: "Comic Sans MS";
+    font-weight: bold;
+    text-align: center;
+}
+
+.my {
+    font-family: "Times New Roman";
+    position: inherit;
+}
+
+h1 + .my {
+    color: red;
+}
+
+
+.txt {
+    width: 700px;
+    text-align: justify;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+
+    /*    float: center;*/
+    /*    margin-right: 10%;*/
+}
+
+/*
+tr,
+td:hover:after {
+    width: 130px;
+}
+*/
+
+tr:hover {
+    background: #ffc;
+}
+
+/*
+tr:hover:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    background: #cfc;
+    z-index: -1;
+}
+*/
