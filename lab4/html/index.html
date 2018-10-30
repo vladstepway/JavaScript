@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="../css/style.css" type="text/css">
+	<script src="../js/result.js"></script>
+	<title> Смартфон </title>
+</head>
+
+<body>
+	<header> Предпочтения в выборе смартфона </header>
+	<div class="wrapper">
+
+		<nav>
+			<br><br><br><br><br><br><br><img src="../resources/Phone3.png" width="200" height="350" alt="phone">
+		</nav>
+
+		<article>
+			<form name="form" action="javascript:showInfo();" method="post"  onsubmit="return validateForm()">
+				<legend>Заполните пожалуйста форму!</legend>
+				<table border="0">
+					<tr>
+						<td>Ваше имя</td>
+						<td><br><input type="text" name="username" style="width: 200px" placeholder="Введите  имя"><br><br></td>
+					</tr>
+					<tr>
+						<td>Укажите ваш возраст</td>
+						<td>
+							<select name="age" id="age" style=" width: 205px; height: 20px;">
+								<optgroup>
+									<option value="до18">
+										до 18</option>
+									<option value="18-21">
+										18-21</option>
+									<option value="22-30">
+										22-30</option>
+									<option value="30+">
+										30+</option>
+								</optgroup>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td>Как часто вы посещаете выставки смартфонов ?</td>
+						<td>
+							<br><input type="radio" name="smartphone" value="Никогда" checked>Никогда<br>
+							<input type="radio" name="smartphone" value="Иногда">Иногда<br>
+							<input type="radio" name="smartphone" value="Часто">Часто<br>
+							<input type="radio" name="smartphone" value="Очень часто">Очень часто<br><br>
+						</td>
+					</tr>
+					
+					<tr>
+						<td>Какой марки у вас смартфон?</td>
+						<td>
+							<input type="checkbox" name="brand" value="Samsung">Samsung<br>
+							<input type="checkbox" name="brand" value="Apple">Apple<br>
+							<input type="checkbox" name="brand" value="LG">LG<br>
+							<input type="checkbox" name="brand" value="Xiaomi">Xiaomi<br>
+							<input type="checkbox" name="brand" value="HTC">HTC<br>
+							<input type="checkbox" name="brand" value="Huawei">Huawei<br>
+							<input type="checkbox" name="brand" value="Lenovo">Lenovo<br>
+							<br>
+						</td>
+					</tr>
+					<tr>
+						<td>Ваш e-mail</td>
+						<td><input type="email" name="useremail" placeholder="Введите email" style=" width: 200px;"><br><br>
+						</td>
+					</tr>
+					<tr>
+						<td>Комментарий</td>
+						<td>
+							<textarea placeholder="Комментарий" cols="2" rows="1" style=" width: 300px; height: 70px; resize: none;" name="comment"></textarea><br>
+						</td>
+					</tr>
+					<tr>
+						<td style="border-bottom: none">
+							<input type="reset" value="Сброс">
+						</td>
+						<td style="border-bottom: none">
+							<input type="submit" value="Отправить" id="sendButton">
+						</td>
+					</tr>
+
+				</table>
+			</form>
+		</article>
+
+		<aside>
+			<br><br><br><br><br><br><br><img src="../resources/homescreen21.png" width="250" height="400" alt="phone">
+		</aside>
+	</div>
+	<footer><a href="index.html" class="textNext">smart-exhibit.com</a></footer>
+
+</body>
+
+</html>
