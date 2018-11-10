@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/style.css" type="text/css">
+    <script src="../js/script.js"></script>
+    <title> </title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header id="header">
+            <nav id="nav">
+                <a href="#" class="nav_item">Menu</a>
+                <a href="#" class="nav_item">About</a>
+                <a href="#" class="nav_item">Contact</a>
+            </nav>
+        </header>
+        <form action="index.html">
+            <p>
+                <select class="option" name="color" title="Цвет">
+                    <option selected disabled>Цвет</option>
+                    <option value="#ff0000">Красный</option>
+                    <option value="#0000ff">Голубой</option>
+                    <option value="green">Зеленый</option>
+                </select>
+                <select class="option" name="size" title="Размер">
+                    <option selected disabled>Размер</option>
+                    <option value="30px">30px</option>
+                    <option value="70px">70px</option>
+                    <option value="100px">100px</option>
+                </select>
+            </p>
+            <br>
+                <button type="reset"  id="resetButton" onclick="changeInput();showMessage()">reset</button>
+                 <button type="sumbit" value="SUBMIT" id="resetButton" onclick="openModalWindow()">submit</button>
+                  <button type="reset" value="Reset" id="resetButton" onclick=""></button>
+
+            <div class="textArea">
+
+                <input id="text1" name="text1" maxlength="10" autofocus required placeholder="Введите текст..." onkeydown="moveCursor(this,'text2')" />
+
+                <input id="text2" name="text2" maxlength="10" autofocus required placeholder="Введите текст..." onkeyup="moveCursor(this,'text3')" />
+
+                <input id="text3" name="text3" maxlength="10" autofocus required placeholder="Введите текст..." />
+
+            </div>
+            <div id="wrap">
+
+            <input type="checkbox" id="button" name="" value="">
+            <label for="button" class="label"></label>
+            <div class="modal">
+              <label for="button" class="close"></label>
+            </div>
+            </div>
+        </form>
+    </div>
+
+
+</body>
+
+</html>
