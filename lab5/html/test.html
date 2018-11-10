@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/test.css" type="text/css">
+    <script src="../js/script.js"></script>
+    <title> </title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header id="header">
+            header
+        </header>
+
+        <form class="flex-container">
+            <div class="panel">
+                <div class="button-flex">
+                    <button type="reset">reset</button>
+                    <button type="button">info</button>
+                    <button type="button">add</button>
+                    
+                </div>
+                <div class="select-list">
+                    <p>
+                        <select class="option" name="color" title="Цвет">
+                            <option selected disabled>Цвет</option>
+                            <option value="#ff0000">Красный</option>
+                            <option value="#0000ff">Голубой</option>
+                            <option value="green">Зеленый</option>
+                        </select>
+                        <select class="option" name="size" title="Размер">
+                            <option selected disabled>Размер</option>
+                            <option value="30px">30px</option>
+                            <option value="70px">70px</option>
+                            <option value="100px">100px</option>
+                        </select>
+                    </p>
+                </div>
+            </div>
+            <div class="newElements">
+                <input id="txt1" type="text" maxlength="15" autofocus required placeholder="Введите текст" onkeyup="moveCursor(this,'txt2')" />
+                <input id="txt2" type="text" maxlength="15" required placeholder="Введите текст" onkeyup="moveCursor(this,'txt3')"  />
+                <input id="txt3" type="text" required placeholder="Введите текст" />
+            </div>
+        </form>
+        <footer id="footer">
+            footer
+        </footer>
+    </div>
+</body>
