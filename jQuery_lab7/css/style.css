@@ -1,0 +1,51 @@
+#wrapper {
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    /*background-color: aquamarine;*/
+    /*justify-content: center;*/
+}
+
+#flex-container {
+    alignment: center;
+    background-color: gold;
+    /*width: 80%;*/
+    min-height: 500px;
+    display: flex;
+    flex-direction: row;
+}
+
+#header {
+    background-color: deepskyblue;
+    height: 20%;
+}
+
+#footer {
+    background-color: chartreuse;
+    height: 20%;
+}
+
+#button-panel {
+    width: 20%;
+    height: auto;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#workspace {
+    display: flex;
+    flex-direction: row;
+}
+
+.btn{
+    width: 50%;
+    left: 25%;
+}
+
+.newStyle{
+    color: red;
+    border: 1px brown;
+    font-size: 20px;
+}
